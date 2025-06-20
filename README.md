@@ -1,2 +1,2 @@
 # WebpageDesign
-Motivo Academico
+Repositorio creado por motivos academicos.
