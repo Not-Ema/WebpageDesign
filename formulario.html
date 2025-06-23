@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div class="contact-form">
-        <a href="index.html">Menú</a>
-        <a href="sobre_nosotros.html">Sobre nosotros</a>
-        <a href="productos.html">Productos</a>
+<div class="wrapper">
+<header class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo_udc.png" alt="Logo de la Universidad de Cartagena" class="header-logo"></a>
+        <ul>
+            <li><a href="index.html">Menú</a></li>
+            <li><a href="formulario.html">Información de contacto</a></li>
+            <li><a href="productos.html">Productos</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <section class="about">
         <h2>Información de contacto</h2>
         <form action="/guardar-contacto" method="POST">
             <label for="nombre">Nombre:</label>
@@ -44,10 +54,14 @@
 	<br>
 
 	<p>Nos pondremos en contacto contigo lo antes posible.</p>
-
-            
-        <p>Eduardo Jose Ebratt Cancino - Sebastian Abdala Asencio</p>
         </form>
-    </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-content">
+        <p>Eduardo Jose Ebratt Cancino &bull; Sebastian Abdala Asencio</p>
+        <p>Universidad de Cartagena &copy; 2025</p>
+      </div>
+    </footer>
+</div>
 </body>
 </html>

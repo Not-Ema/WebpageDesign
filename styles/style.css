@@ -16,6 +16,10 @@
 .header h1 {
     font-size: 1rem;
 }
+.header h2 {
+    font-size: 1.5rem;
+    color: rgb(21, 124, 76);
+}
 
 nav {
     display: flex;
@@ -37,7 +41,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: rgb(60, 142, 189);
+    color:  rgb(21, 124, 76);
     font-size: 1.2rem;
 }
 .about {
@@ -48,4 +52,101 @@ nav ul li a {
     font-size: 2rem;
     margin-bottom: 20px;
     color: rgb(21, 124, 76);
+}
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 50px 10%;
+}
+
+.product-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    padding: 20px;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-item img {
+    width: 100%;
+    height: 200px; /* fuerza altura uniforme */
+    object-fit: cover; /* recorta la imagen para que llene el espacio sin deformarse */
+}
+
+.product-item h3 {
+    margin-top: 15px;
+    color: rgb(21, 124, 76);
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-item a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 1rem;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: rgb(21, 124, 76);
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto; /* Empuja el footer al fondo si hay poco contenido */
+    background-color:  rgb(86, 94, 90);
+    color: white;
+    text-align: center;
+    padding: 30px 10%;
+    font-size: 1rem;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin: 8px 0;
 }

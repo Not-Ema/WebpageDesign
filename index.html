@@ -7,29 +7,51 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <h1>EDUARDO - SEBASTIAN y asociados</h1>
-    <p>Haz clic en cualquiera de los gráficos para ir a diferentes enlaces.</p>
+    <div class="wrapper">
+    <header class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo_udc.png" alt="Logo de la Universidad de Cartagena" class="header-logo"></a>
+            <ul>
+                <li><a href="index.html">Menú</a></li>
+                <li><a href="formulario.html">Información de contacto</a></li>
+                <li><a href="productos.html">Productos</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="container">
-        <a href="productos.html" class="graphic">
-            <img src="images/Pastel.jpg" alt="Gráfico 1" width="200">
-        </a>
-        <a href="sobre_nosotros.html" class="graphic">
-            <img src="images/informacion.jpg" alt="Gráfico 2" width="200">
-        </a>
-        <a href="images/formulario.html" class="graphic">
-            <img src="images/formulario.jpg" alt="Gráfico 3" width="200">
-        </a>
-        <a href="https://unicartagena.edu.co/" class="graphic">
-            <img src="images/universidad.jpg" alt="Gráfico 4" target="_blank" width="200">
-        </a>
-        
-    <h1>Productos &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	 Informacion &nbsp;&nbsp;&nbsp; Formulario &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	UdeC</h1>  
-    </div>
+    <section class="product-grid">
+        <div class="product-item">
+            <a href="productos.html">
+                <img src="images/Pastel.jpg" alt="Productos">
+                <h3>Productos</h3>
+            </a>
+        </div>
+        <div class="product-item">
+            <a href="sobre_nosotros.html">
+                <img src="images/informacion.jpg" alt="Sobre Nosotros">
+                <h3>Sobre Nosotros</h3>
+            </a>
+        </div>
+        <div class="product-item">
+            <a href="formulario.html">
+                <img src="images/formulario.jpg" alt="Formulario">
+                <h3>Formulario</h3>
+            </a>
+        </div>
+        <div class="product-item">
+            <a href="https://unicartagena.edu.co/" target="_blank">
+                <img src="images/universidad.jpg" alt="UdeC">
+                <h3>UdeC</h3>
+            </a>
+        </div>
+    </section>
+
     <footer class="footer">
-        <p>Eduardo Jose Ebratt Cancino - Sebastian Abdala Asencio </p>
+      <div class="footer-content">
+        <p>Eduardo Jose Ebratt Cancino &bull; Sebastian Abdala Asencio</p>
+        <p>Universidad de Cartagena &copy; 2025</p>
+      </div>
     </footer>
+    </div>
 </body>
 </html>
