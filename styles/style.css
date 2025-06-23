@@ -6,7 +6,7 @@
 }
 
 .header {
-    background-color: #ffffff;
+    background-color: #FFD6BA;
     color: rgb(0, 0, 0);
     padding: 0 10%;
     width: 100%;
@@ -16,9 +16,18 @@
 .header h1 {
     font-size: 1rem;
 }
-.header h2 {
-    font-size: 1.5rem;
-    color: rgb(21, 124, 76);
+.header h3{
+    margin-top: 20px;
+    color: rgb(77, 73, 73);
+}
+
+.title-products {
+    text-align: center;
+    padding: 20px 0;
+}
+.title-products h2 {
+    font-size: 2rem;
+    color: rgb(77, 73, 73);
 }
 
 nav {
@@ -41,17 +50,18 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color:  rgb(21, 124, 76);
+    color:  rgb(77, 73, 73);
     font-size: 1.2rem;
 }
 .about {
+    text-align: center;
     padding: 50px 10%;
     display: inline-block;
 }
 .about h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: rgb(21, 124, 76);
+    color: rgb(77, 73, 73);
 }
 
 
@@ -63,7 +73,7 @@ nav ul li a {
 }
 
 .product-item {
-    background-color: #ffffff;
+    background-color: #FFD6BA;
     border: 1px solid #ddd;
     border-radius: 12px;
     overflow: hidden;
@@ -86,7 +96,7 @@ nav ul li a {
 
 .product-item h3 {
     margin-top: 15px;
-    color: rgb(21, 124, 76);
+    color: rgb(77, 73, 73);
 }
 
 .product-item:hover {
@@ -125,6 +135,7 @@ table tr:nth-child(even) {
 
 html, body {
     height: 100%;
+    background-color: #FFF2EB;
 }
 
 .wrapper {
@@ -135,8 +146,8 @@ html, body {
 
 .footer {
     margin-top: auto; /* Empuja el footer al fondo si hay poco contenido */
-    background-color:  rgb(86, 94, 90);
-    color: white;
+    background-color:  #FFF2EB;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 30px 10%;
     font-size: 1rem;
